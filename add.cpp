@@ -8,5 +8,4 @@ cin>>a>>b;
 sum=a+b;
 cout<<"sum of this is:";
 return 0;
-getch();
 }
