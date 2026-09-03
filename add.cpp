@@ -1,6 +1,6 @@
 #include<iostream>
 using namspace std;
-int mai()
+int main()
 {
 int a,b,sum;
 cout<<"enter value for a and b:";
