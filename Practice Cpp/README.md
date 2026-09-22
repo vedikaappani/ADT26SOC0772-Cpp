@@ -1,6 +1,6 @@
 practice cpp
 
-1. Hello world 
+# 1. Hello world 
 
 #include<iostream>
 using namepace std;
@@ -10,7 +10,7 @@ cout<<"hello world";
 return 0;
 }
 
-2. addition
+# 2. addition
 
 #include<iostream>
 using namespace std;
@@ -24,7 +24,7 @@ cout<<"sum of this is:"<<sum;
 return 0;
 }
 
-3. swapping 
+# 3. swapping 
 
 #include<iostream>
 using namespace std;
@@ -41,7 +41,7 @@ cout<<"after swapping"<<"a="<<a<<endl;
 cout<<"b="<<b<<endl;
 return 0;
 
-4. car
+# 4. car
 
 #include<iostream>
 #include<string>
@@ -68,7 +68,7 @@ cout<<Car1.brand<<" "<<Car1.model<<" "<<Car1.color<<" "<<endl;
 return 0;
 }
 
-5. profile
+# 5. profile
 
 #include<iostream>
 using namespace std;
