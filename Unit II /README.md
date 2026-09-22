@@ -1,7 +1,7 @@
 # Unit I
 
 
-# Experiment 1: Employee class with constrictors 
+# Experiment 1: Employee class with construtors 
 
 #include <iostream>
 #include <string>
