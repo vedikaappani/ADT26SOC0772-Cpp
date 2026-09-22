@@ -1,6 +1,6 @@
 # Unit I
 
-Experiment 1: Student class with details and result calculation
+# Experiment 1: Student class with details and result calculation
 
 #include <iostream>
 #include <string>
@@ -82,7 +82,7 @@ int main()
 }
 
 
-Experiment 2: Rectangle class with memeber function 
+# Experiment 2: Rectangle class with memeber function 
 
 #include <iostream>
 using namespace std;
@@ -131,7 +131,7 @@ int main() {
 }
 
 
-Experiment 3: Product class with array of objects 
+# Experiment 3: Product class with array of objects 
 
 #include <iostream>
 #include <string>
