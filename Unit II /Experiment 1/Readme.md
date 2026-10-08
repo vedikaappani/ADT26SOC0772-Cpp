@@ -18,7 +18,7 @@ public:
         cout << "Default constructor called" << endl;
     }
 
-    // Parameterized Constructor
+
     Employee(int id, string n, float salary, float b) {
         empId = id;
         name = n;
@@ -28,12 +28,12 @@ public:
         cout << "Parameterized constructor called" << endl;
     }
 
-    // Member Function to calculate total salary
+   
     void calculateTotalSalary() {
         totalSalary = basicSalary + bonus;
     }
 
-    // Display Function
+   
     void display() const {
         cout << "Employee ID: " << empId << endl;
         cout << "Name: " << name << endl;
@@ -44,11 +44,9 @@ public:
 };
 
 int main() {
-    // Creating object using default constructor
     Employee emp1;
     emp1.display();
 
-    // Creating object using parameterized constructor
     Employee emp2(101, "John Doe", 50000, 10000);
     emp2.display();
 
