@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Class Template
+
 template <class T>
 class Calculator {
 private:
