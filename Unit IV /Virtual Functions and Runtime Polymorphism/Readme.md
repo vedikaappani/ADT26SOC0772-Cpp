@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Base class
+
 class Shape {
 public:
     virtual void area() {
@@ -10,7 +10,7 @@ public:
     }
 };
 
-// Derived class 1
+
 class Circle : public Shape {
 public:
     void area() override {
@@ -18,7 +18,7 @@ public:
     }
 };
 
-// Derived class 2
+
 class Rectangle : public Shape {
 public:
     void area() override {
