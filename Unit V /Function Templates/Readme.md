@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-// Function Template
+
 template <class T>
 T findMax(T a, T b) {
     if (a > b)
