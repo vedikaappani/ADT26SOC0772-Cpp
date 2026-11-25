@@ -13,7 +13,7 @@ private:
     float totalSalary;
 
 public:
-    // Default Constructor
+    
     Employee() : empId(0), name("Unknown"), basicSalary(0), bonus(0), totalSalary(0) {
         cout << "Default constructor called" << endl;
     }
