@@ -33,7 +33,7 @@ int main() {
              << amount << endl;
     }
 
-    // 3. Multiple Exception Conditions
+    
     try {
         int age = 15;
 
