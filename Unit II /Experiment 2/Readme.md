@@ -13,7 +13,7 @@ private:
     static int bookCount;
 
 public:
-    // Parameterized Constructor with Default Arguments
+   
     Book(int id = 0, string t = "Unknown", string a = "Unknown", float p = 0.0) {
         bookId = id;
         title = t;
@@ -23,7 +23,7 @@ public:
         cout << "Book created. Total books: " << bookCount << endl;
     }
 
-    // Copy Constructor
+    
     Book(const Book &b) {
         bookId = b.bookId;
         title = b.title;
@@ -33,13 +33,13 @@ public:
         cout << "Book copied. Total books: " << bookCount << endl;
     }
 
-    // Destructor
+    
     ~Book() {
         bookCount--;
         cout << "Book destroyed. Total books: " << bookCount << endl;
     }
 
-    // Display Function
+   
     void display() const {
         cout << "Book ID: " << bookId << endl;
         cout << "Title: " << title << endl;
@@ -47,13 +47,12 @@ public:
         cout << "Price: " << price << endl;
     }
 
-    // Static Member Function
+    
     static int getBookCount() {
         return bookCount;
     }
 };
 
-// Initializing static data member
 int Book::bookCount = 0;
 
 int main() {
